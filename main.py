@@ -18,19 +18,11 @@ from sofiimagereader import *
 # CHANGE AUTHORIZATION TO USER AUTH TOKEN
 # CHANGE REFERRER TO CHANNEL URL LINK OF CHOICE
 header_data = {
-  "content-type": "application/json",
-  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
-  "authorization": "MTcxMzg3MzExMzU4MDgzMDcy.GogpHK.Z9y-LPdTLHjbSeGEL1ybU17g1qb7m9trEiOINo",
-  "host": "discordapp.com",
-  "referrer": "https://discord.com/channels/1050236914852175872/1050236915691044896"
+  removed for security
 } #hard coded to auth key, and discord server channel
 
 header_data_channel2 = {
-  "content-type": "application/json",
-  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
-  "authorization": "MTcxMzg3MzExMzU4MDgzMDcy.GogpHK.Z9y-LPdTLHjbSeGEL1ybU17g1qb7m9trEiOINo",
-  "host": "discordapp.com",
-  "referrer": "https://discord.com/channels/1050236914852175872/1050240758558502992"
+  removed for security
 } #hard coded to auth key, and discord server channel
 
 # message data to send as your user
@@ -319,7 +311,7 @@ def main():
           eventFlag = await checkEvent()
           print(eventFlag)
 
-    client.run('MTAyMzI3Nzg4NzY1NjMxNjk5OQ.G8vnTM.5ceeRQBk0H57pL0gVMZ-ulQmZlyfvi7TFbEowM') #bot token goes here
+    client.run('  removed for security') #bot token goes here
 
 
 main()
